@@ -3,9 +3,7 @@
   <PropertyGroup>
     <AssemblyName>tor</AssemblyName>
     <OutputType>Exe</OutputType>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
-    <AppendRuntimeIdentifierToOutputPath>false</AppendRuntimeIdentifierToOutputPath>
-    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <TargetFrameworks>netcoreapp3.1;net5.0</TargetFrameworks>
     <RootNamespace>DotNet</RootNamespace>
     <LangVersion>latest</LangVersion>
     <PackageId>dotnet-tor</PackageId>
