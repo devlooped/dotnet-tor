@@ -1,5 +1,13 @@
 
 
+## [v0.3.1](https://github.com/kzu/dotnet-tor/tree/v0.3.1) (2021-05-19)
+
+[Full Changelog](https://github.com/kzu/dotnet-tor/compare/v0.3.0...v0.3.1)
+
+:bug: Fixed bugs:
+
+- Failure to locate torrc under Ubuntu [\#3](https://github.com/kzu/dotnet-tor/issues/3)
+
 ## [v0.3.0](https://github.com/kzu/dotnet-tor/tree/v0.3.0) (2021-05-19)
 
 [Full Changelog](https://github.com/kzu/dotnet-tor/compare/v0.2.0...v0.3.0)
