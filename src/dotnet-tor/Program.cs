@@ -33,8 +33,9 @@ if (ThisAssembly.Project.CI.Equals("true", StringComparison.OrdinalIgnoreCase) &
 }
 
 var appPath = GetApplicationPath();
-
+#if !CI
 AnsiConsole.MarkupLine($"[yellow]AppPath: {appPath}[/]");
+#endif
 
 await new TorCommand(appPath).WithConfigurableDefaults("tor").InvokeAsync(args);
 
