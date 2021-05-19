@@ -16,22 +16,23 @@ dotnet tool update -g dotnet-tor
 Usage:
 
 ```
-> dotnet echo -?
-echo
-  A trivial program that echoes whatever is sent to it via HTTP.
+> dotnet tor -?
+tor
+  Tor proxy service
 
 Usage:
-  echo [options]
+  tor [options] [command]
 
 Options:
-  -p, --prefix <prefix>  Prefix to listen on such as http://127.0.0.0:80/ [default: http://*:80/]
-  --version              Show version information
-  -?, -h, --help         Show help and usage information
+  -p, --proxy <proxy>      Proxy port [default: 1337]
+  -s, --socks <socks>      Socks port [default: 1338]
+  -c, --control <control>  Control port [default: 1339]
+  --version                Show version information
+  -?, -h, --help           Show help and usage information
+
+Commands:
+  config  Edits the full torrc configuration file.
 ```
 
 The program will automatically check for updates once a day and recommend updating 
 if there is a new version available.
-
-An example of the output during execution:
-
-![](assets/img/echo.gif)
