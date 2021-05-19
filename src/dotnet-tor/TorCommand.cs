@@ -124,7 +124,7 @@ class TorCommand : RootCommand
             {
                 var config = torConfig.GetSection("tor", service);
                 var onion = await File.ReadAllTextAsync(hostName, cancellation);
-                AnsiConsole.MarkupLine($"[yellow]Service {service} ({config.GetString("service")}):[/] [lime]{onion.Trim()}[/]");
+                AnsiConsole.MarkupLine($"[yellow]Service {service} ({config.GetString("service")}):[/] [lime]{onion.Trim()}:{config.GetNumber("port")}[/]");
             }
         }
 
