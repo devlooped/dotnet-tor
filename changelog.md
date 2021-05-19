@@ -1,5 +1,9 @@
 
 
+## [v0.2.0](https://github.com/kzu/dotnet-tor/tree/v0.2.0) (2021-05-19)
+
+[Full Changelog](https://github.com/kzu/dotnet-tor/compare/v0.1.0...v0.2.0)
+
 ## [v0.1.0](https://github.com/kzu/dotnet-tor/tree/v0.1.0) (2021-05-19)
 
 [Full Changelog](https://github.com/kzu/dotnet-tor/compare/67bd41f468f39d068c83c5b958b64c5afb96cd3a...v0.1.0)
