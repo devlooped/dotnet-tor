@@ -46,6 +46,9 @@ class ConfigureCommand : Command
             Path.GetFileNameWithoutExtension(zipPath), 
             "Data", "Tor", "torrc");
 
+        var torProxy = new TorSharpProxy(settings);
+        await torProxy.ConfigureAsync();
+
         // TODO: won't exist yet because the tools aren't unzipped yet.
         if (File.Exists(configPath))
             Process.Start(editor, configPath);

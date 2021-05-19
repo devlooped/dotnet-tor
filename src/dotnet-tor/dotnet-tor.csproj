@@ -17,7 +17,7 @@
 
   <ItemGroup>
     <PackageReference Include="DotNetConfig.CommandLine" Version="1.0.3" />
-    <PackageReference Include="Knapcode.TorSharp" Version="2.6.0" />
+    <!--<PackageReference Include="Knapcode.TorSharp" Version="2.6.0" />-->
     <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.0.0" PrivateAssets="all" />
     <PackageReference Include="ThisAssembly" Version="1.0.8" />
     <PackageReference Include="NuGet.Protocol" Version="5.9.1" />
@@ -28,6 +28,10 @@
   <ItemGroup>
     <ProjectProperty Include="CI" />
     <ProjectProperty Include="PackageId" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\external\TorSharp\src\TorSharp\TorSharp.csproj" />
   </ItemGroup>
 
 </Project>

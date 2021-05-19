@@ -1,0 +1,4 @@
+[submodule "external/TorSharp"]
+	path = external/TorSharp
+	url = https://github.com/kzu/TorSharp
+	branch = main
