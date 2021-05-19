@@ -15,7 +15,6 @@
     
 Usage:
 
-```
 > dotnet tor -?
 tor
   Tor proxy service
