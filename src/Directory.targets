@@ -1,0 +1,7 @@
+<Project>
+
+  <PropertyGroup Condition="'$(CI)' == 'true'">
+    <DefineConstants Condition="'$(Language)' == 'C#'">CI;$(DefineConstants)</DefineConstants>
+  </PropertyGroup>
+
+</Project>

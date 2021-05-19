@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <AssemblyName>tor</AssemblyName>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <AppendRuntimeIdentifierToOutputPath>false</AppendRuntimeIdentifierToOutputPath>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <RootNamespace>DotNet</RootNamespace>
+    <LangVersion>latest</LangVersion>
+    <PackageId>dotnet-tor</PackageId>
+    <PackAsTool>true</PackAsTool>
+    <ToolCommandName>dotnet-tor</ToolCommandName>
+    <Description>A Tor proxy service.</Description>
+    <PackageProjectUrl>https://www.cazzulino.com/dotnet-tor</PackageProjectUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DotNetConfig.CommandLine" Version="1.0.3" />
+    <PackageReference Include="Knapcode.TorSharp" Version="2.6.0" />
+    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.0.0" PrivateAssets="all" />
+    <PackageReference Include="ThisAssembly" Version="1.0.8" />
+    <PackageReference Include="NuGet.Protocol" Version="5.9.1" />
+    <PackageReference Include="Spectre.Console" Version="0.39.0" />
+    <PackageReference Include="Humanizer.Core" Version="2.10.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectProperty Include="CI" />
+    <ProjectProperty Include="PackageId" />
+  </ItemGroup>
+
+</Project>
