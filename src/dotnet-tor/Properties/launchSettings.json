@@ -1,8 +1,0 @@
-{
-  "profiles": {
-    "dotnet-tor": {
-      "commandName": "Project",
-      "commandLineArgs": "add -?"
-    }
-  }
-}
