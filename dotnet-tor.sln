@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dotnet-tor", "src\dotnet-to
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{95AB91E3-8D17-486B-A99D-1E074A054655}"
 	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
 		readme.md = readme.md
+		tor.cmd = tor.cmd
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TorSharp", "external\TorSharp\src\TorSharp\TorSharp.csproj", "{350FC483-DA36-4273-90C6-9808D87F5115}"

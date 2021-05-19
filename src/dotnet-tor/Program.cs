@@ -32,35 +32,11 @@ if (ThisAssembly.Project.CI.Equals("true", StringComparison.OrdinalIgnoreCase) &
         AnsiConsole.MarkupLine($"[yellow]New version v{update.Identity.Version} from {(DateTimeOffset.Now - (update.Published ?? DateTimeOffset.Now)).Humanize()} ago is available.[/] Update with: [lime]dotnet tool update -g dotnet-echo[/]");
 }
 
-var appPath = GetApplicationPath();
 #if !CI
-AnsiConsole.MarkupLine($"[yellow]AppPath: {appPath}[/]");
+AnsiConsole.MarkupLine($"[yellow]AppPath: {Tor.AppPath}[/]");
 #endif
 
-await new TorCommand(appPath).WithConfigurableDefaults("tor").InvokeAsync(args);
-
-// See GCM's Program.cs
-static string GetApplicationPath()
-{
-    // Assembly::Location always returns an empty string if the application was published as a single file
-#pragma warning disable IL3000
-    bool isSingleFile = string.IsNullOrEmpty(Assembly.GetEntryAssembly()?.Location);
-#pragma warning restore IL3000
-
-    // Use "argv[0]" to get the full path to the entry executable - this is consistent across
-    // .NET Framework and .NET >= 5 when published as a single file.
-    string[] args = Environment.GetCommandLineArgs();
-    string candidatePath = args[0];
-
-    // If we have not been published as a single file on .NET 5 then we must strip the ".dll" file extension
-    // to get the default AppHost/SuperHost name.
-    if (!isSingleFile && Path.HasExtension(candidatePath))
-    {
-        return Path.ChangeExtension(candidatePath, null);
-    }
-
-    return candidatePath;
-}
+await new TorCommand().InvokeAsync(args);
 
 static Task<IPackageSearchMetadata> GetUpdateAsync() => AnsiConsole.Status().StartAsync("Checking for updates", async context =>
 {

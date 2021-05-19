@@ -10,13 +10,10 @@ using System.Threading.Tasks;
 using Knapcode.TorSharp;
 using Spectre.Console;
 
-class ConfigureCommand : Command
+class ConfigCommand : Command
 {
-    readonly string torPath;
-
-    public ConfigureCommand(string torPath) : base("config", "Edits the full torrc configuration file.")
+    public ConfigCommand() : base("config", "Edits the full torrc configuration file.")
     {
-        this.torPath = torPath;
         Handler = CommandHandler.Create(RunAsync);
     }
 
@@ -24,9 +21,8 @@ class ConfigureCommand : Command
     {
         var settings = new TorSharpSettings
         {
-
-            ZippedToolsDirectory = Path.Combine(torPath, "zip"),
-            ExtractedToolsDirectory = Path.Combine(torPath, "bin"),
+            ZippedToolsDirectory = Path.Combine(Tor.AppPath, "zip"),
+            ExtractedToolsDirectory = Path.Combine(Tor.AppPath, "bin"),
         };
 
         var zipPath = await AnsiConsole.Status().StartAsync("Fetching Tor tools", async _ =>
@@ -49,7 +45,6 @@ class ConfigureCommand : Command
         var torProxy = new TorSharpProxy(settings);
         await torProxy.ConfigureAsync();
 
-        // TODO: won't exist yet because the tools aren't unzipped yet.
         if (File.Exists(configPath))
             Process.Start(editor, configPath);
     }
