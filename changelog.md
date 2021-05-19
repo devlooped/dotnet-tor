@@ -1,5 +1,13 @@
 
 
+## [v0.3.2](https://github.com/kzu/dotnet-tor/tree/v0.3.2) (2021-05-19)
+
+[Full Changelog](https://github.com/kzu/dotnet-tor/compare/v0.3.1...v0.3.2)
+
+:bug: Fixed bugs:
+
+- When rendering the service onion URL, also add the port [\#4](https://github.com/kzu/dotnet-tor/issues/4)
+
 ## [v0.3.1](https://github.com/kzu/dotnet-tor/tree/v0.3.1) (2021-05-19)
 
 [Full Changelog](https://github.com/kzu/dotnet-tor/compare/v0.3.0...v0.3.1)
