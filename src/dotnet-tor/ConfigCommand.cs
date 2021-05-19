@@ -37,10 +37,13 @@ class ConfigCommand : Command
             (RuntimeInformation.IsOSPlatform(OSPlatform.Windows) ?
             "notepad.exe" : "nano");
 
+        var zipName = Path.GetFileNameWithoutExtension(zipPath);
+        if (zipName.EndsWith(".tar"))
+            zipName = Path.GetFileNameWithoutExtension(zipName);
+
         var configPath = Path.Combine(
             settings.ExtractedToolsDirectory,
-            Path.GetFileNameWithoutExtension(zipPath),
-            "Data", "Tor", "torrc");
+            zipName, "Data", "Tor", "torrc");
 
         var torProxy = new TorSharpProxy(settings);
         await torProxy.ConfigureAsync();

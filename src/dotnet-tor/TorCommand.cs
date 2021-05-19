@@ -63,10 +63,13 @@ class TorCommand : RootCommand
         await tor.ConfigureAsync();
         cancellation.ThrowIfCancellationRequested();
 
+        var zipName = Path.GetFileNameWithoutExtension(zipPath);
+        if (zipName.EndsWith(".tar"))
+            zipName = Path.GetFileNameWithoutExtension(zipName);
+
         var configPath = Path.Combine(
             settings.ExtractedToolsDirectory,
-            Path.GetFileNameWithoutExtension(zipPath),
-            "Data", "Tor", "torrc");
+            zipName, "Data", "Tor", "torrc");
 
         if (!File.Exists(configPath))
             throw new ArgumentException($"Tor configuration file not found at expected location {configPath}");
