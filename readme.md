@@ -31,7 +31,8 @@ Options:
   -?, -h, --help           Show help and usage information
 
 Commands:
-  config  Edits the full torrc configuration file.
+  add <name> <service>  Adds a service to register on the Tor network
+  config                Edits the full torrc configuration file.
 ```
 
 The program will automatically check for updates once a day and recommend updating 

@@ -30,7 +30,8 @@ Options:
   -?, -h, --help    Show help and usage information
 
 Commands:
-  config            Edits the full torrc configuration file.
+  add [name] [service]  Adds a service to register on the Tor network
+  config                Edits the full torrc configuration file.
 </Description>
     <PackageProjectUrl>https://www.cazzulino.com/dotnet-tor</PackageProjectUrl>
   </PropertyGroup>
