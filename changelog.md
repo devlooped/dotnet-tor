@@ -1,5 +1,13 @@
 
 
+## [v0.3.3](https://github.com/kzu/dotnet-tor/tree/v0.3.3) (2021-05-19)
+
+[Full Changelog](https://github.com/kzu/dotnet-tor/compare/v0.3.2...v0.3.3)
+
+:bug: Fixed bugs:
+
+- If only .NET5 SDK is installed, tool fails to run [\#5](https://github.com/kzu/dotnet-tor/issues/5)
+
 ## [v0.3.2](https://github.com/kzu/dotnet-tor/tree/v0.3.2) (2021-05-19)
 
 [Full Changelog](https://github.com/kzu/dotnet-tor/compare/v0.3.1...v0.3.2)
