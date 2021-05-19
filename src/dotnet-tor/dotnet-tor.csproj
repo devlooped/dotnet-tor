@@ -11,7 +11,28 @@
     <PackageId>dotnet-tor</PackageId>
     <PackAsTool>true</PackAsTool>
     <ToolCommandName>dotnet-tor</ToolCommandName>
-    <Description>A Tor proxy service.</Description>
+    <Description>A Tor proxy service
+    
+Usage:
+
+```
+> dotnet tor -?
+tor
+  Tor proxy service
+
+Usage:
+  tor [options] [command]
+
+Options:
+  -p, --proxy       Proxy port [default: 1337]
+  -s, --socks       Socks port [default: 1338]
+  -c, --control     Control port [default: 1339]
+  --version         Show version information
+  -?, -h, --help    Show help and usage information
+
+Commands:
+  config            Edits the full torrc configuration file.
+</Description>
     <PackageProjectUrl>https://www.cazzulino.com/dotnet-tor</PackageProjectUrl>
   </PropertyGroup>
 
