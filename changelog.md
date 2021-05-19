@@ -1,5 +1,14 @@
 
 
+## [v0.3.0](https://github.com/kzu/dotnet-tor/tree/v0.3.0) (2021-05-19)
+
+[Full Changelog](https://github.com/kzu/dotnet-tor/compare/v0.2.0...v0.3.0)
+
+:sparkles: Implemented enhancements:
+
+- Add support for manually configuring the torrc file [\#2](https://github.com/kzu/dotnet-tor/issues/2)
+- Add support for registering hidden services [\#1](https://github.com/kzu/dotnet-tor/issues/1)
+
 ## [v0.2.0](https://github.com/kzu/dotnet-tor/tree/v0.2.0) (2021-05-19)
 
 [Full Changelog](https://github.com/kzu/dotnet-tor/compare/v0.1.0...v0.2.0)
