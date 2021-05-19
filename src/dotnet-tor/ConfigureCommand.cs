@@ -42,8 +42,8 @@ class ConfigureCommand : Command
             "notepad.exe" : "nano");
 
         var configPath = Path.Combine(
-            settings.ExtractedToolsDirectory, 
-            Path.GetFileNameWithoutExtension(zipPath), 
+            settings.ExtractedToolsDirectory,
+            Path.GetFileNameWithoutExtension(zipPath),
             "Data", "Tor", "torrc");
 
         var torProxy = new TorSharpProxy(settings);

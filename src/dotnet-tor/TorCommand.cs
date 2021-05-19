@@ -38,7 +38,7 @@ class TorCommand : RootCommand
             ExtractedToolsDirectory = Path.Combine(torPath, "bin"),
             PrivoxySettings =
             {
-                Port = proxy, 
+                Port = proxy,
             },
             TorSettings =
             {
@@ -48,7 +48,7 @@ class TorCommand : RootCommand
             },
         };
 
-        await AnsiConsole.Status().StartAsync("Fetching Tor tools", 
+        await AnsiConsole.Status().StartAsync("Fetching Tor tools",
             async _ => await new TorSharpToolFetcher(settings, new HttpClient()).FetchAsync());
 
         cancellation.ThrowIfCancellationRequested();
