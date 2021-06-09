@@ -54,8 +54,8 @@
 	weak
 [file ".github/workflows/build.yml"]
 	url = https://github.com/devlooped/oss/blob/main/.github/workflows/build.yml
-	sha = 6928fc7af55eeffbc3ecb35a2038ea6d90dbbc23
-	etag = 0c1795c13d627d9051965912a0ff6fda07dd7d408d913ec477fb0a9aa753918e
+	sha = fc5889d5387e2d5aa7aba279b2aa12251cf08cb2
+	etag = 91e9a208cd134bd7b71d7419800c613bc50a30e21e605607528721f2acdeab86
 	weak
 [file ".github/workflows/changelog.yml"]
 	url = https://github.com/devlooped/oss/blob/main/.github/workflows/changelog.yml
@@ -114,8 +114,8 @@
 	weak
 [file "src/Directory.Build.props"]
 	url = https://github.com/devlooped/oss/blob/main/src/Directory.Build.props
-	sha = ae442c0e142d8948b1d26136c057a73ece224581
-	etag = d9d8096ce24bfa68e7bd23728e737c8440fc05eb1a56a190fd671946ad89c277
+	sha = 52d6c40aaa460ac48fc74c03324c6b1db7ae170d
+	etag = ae2606c157b9725ce8c707e30d9768fb0bad901ac34065d3cd75fc2bdbc5f8cf
 	weak
 [file "src/Directory.Build.targets"]
 	url = https://github.com/devlooped/oss/blob/main/src/Directory.Build.targets
