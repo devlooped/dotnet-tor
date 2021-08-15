@@ -1,11 +1,7 @@
-![Icon](assets/img/icon-32.png) dotnet-tor
+![Icon](https://raw.githubusercontent.com/devlooped/dotnet-tor/main/assets/img/icon-32.png) dotnet-tor
 ============
 
-[![Version](https://img.shields.io/nuget/v/dotnet-tor.svg?color=royalblue)](https://www.nuget.org/packages/dotnet-tor)
-[![Downloads](https://img.shields.io/nuget/dt/dotnet-tor.svg?color=darkmagenta)](https://www.nuget.org/packages/dotnet-tor)
-[![License](https://img.shields.io/github/license/kzu/dotnet-tor.svg?color=blue)](https://github.com/kzu/dotnet-tor/blob/main/LICENSE)
-[![CI Status](https://github.com/kzu/dotnet-tor/workflows/build/badge.svg?branch=main)](https://github.com/kzu/dotnet-tor/actions?query=branch%3Amain+workflow%3Abuild+)
-[![CI Version](https://img.shields.io/endpoint?url=https://shields.kzu.io/vpre/dotnet-tor/main&label=nuget.ci&color=brightgreen)](https://pkg.kzu.io/index.json)
+[![Version](https://img.shields.io/nuget/v/dotnet-tor.svg?color=royalblue)](https://www.nuget.org/packages/dotnet-tor) [![Downloads](https://img.shields.io/nuget/dt/dotnet-tor.svg?color=darkmagenta)](https://www.nuget.org/packages/dotnet-tor) [![License](https://img.shields.io/github/license/devlooped/dotnet-tor.svg?color=blue)](https://github.com/devlooped/dotnet-tor/blob/main/LICENSE)
 
 Installing or updating (same command can be used for both):
 
@@ -41,8 +37,7 @@ if there is a new version available.
 
 ## Dogfooding
 
-[![CI Version](https://img.shields.io/endpoint?url=https://shields.kzu.io/vpre/dotnet-tor/main&label=nuget.ci&color=brightgreen)](https://pkg.kzu.io/index.json)
-[![Build](https://github.com/devlooped/dotnet-tor/workflows/build/badge.svg?branch=main)](https://github.com/devlooped/dotnet-tor/actions)
+[![CI Version](https://img.shields.io/endpoint?url=https://shields.kzu.io/vpre/dotnet-tor/main&label=nuget.ci&color=brightgreen)](https://pkg.kzu.io/index.json) [![Build](https://github.com/devlooped/dotnet-tor/workflows/build/badge.svg?branch=main)](https://github.com/devlooped/dotnet-tor/actions)
 
 We also produce CI packages from branches and pull requests so you can dogfood builds as quickly as they are produced. 
 
