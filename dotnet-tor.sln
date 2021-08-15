@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31313.381
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31521.260
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dotnet-tor", "src\dotnet-tor\dotnet-tor.csproj", "{AFDEAF94-1BE3-41A9-B540-E18813DCAD57}"
 EndProject
@@ -11,8 +11,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		readme.md = readme.md
 		tor.cmd = tor.cmd
 	EndProjectSection
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TorSharp", "external\TorSharp\src\TorSharp\TorSharp.csproj", "{350FC483-DA36-4273-90C6-9808D87F5115}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,10 +22,6 @@ Global
 		{AFDEAF94-1BE3-41A9-B540-E18813DCAD57}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AFDEAF94-1BE3-41A9-B540-E18813DCAD57}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AFDEAF94-1BE3-41A9-B540-E18813DCAD57}.Release|Any CPU.Build.0 = Release|Any CPU
-		{350FC483-DA36-4273-90C6-9808D87F5115}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{350FC483-DA36-4273-90C6-9808D87F5115}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{350FC483-DA36-4273-90C6-9808D87F5115}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{350FC483-DA36-4273-90C6-9808D87F5115}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
