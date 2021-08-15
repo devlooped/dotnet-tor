@@ -38,7 +38,8 @@ Configured services are persisted in the global [dotnet-config](https://dotnetco
 
 ### Exposing local HTTP APIs via Tor
 
-After installation, you might want to expose an .NET Core HTTP service from port 7071 (the default for the Kestrel-based HTTP server in .NET Core) over the Tor network. You could configure the service with:
+After installation, you might want to expose an .NET Core HTTP service from local port 7071 over the Tor network on port 80. 
+You could configure the service with:
 
 ```
 > dotnet tor add api 127.0.0.1:7071 -p 80
@@ -65,7 +66,38 @@ var http = new HttpClient(new HttpClientHandler
 var response = await http.GetAsync("http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion/[endpoint]"));
 ```
 
-The client can just use another `dotnet-tor` proxy running locally with default configuration values and things will Just Work™ and properly reach the destination service running anywhere in the world :).
+The client can just use another `dotnet-tor` proxy running locally with default configuration values and things will Just Work™ and 
+properly reach the destination service running anywhere in the world :).
+
+You can even expose the local HTTPS endpoint instead. In this case, the client would need to perform custom validation 
+(or entirely bypass it) of the certificate, but otherwise, things work as-is too.
+
+Service-side:
+
+```
+> dotnet tor add api 127.0.0.1:5001 -p 443
+```
+
+Note that since we're exposing the service over the default port for SSL, we don't need to specify the port in the client:
+
+```csharp
+var http = new HttpClient(new HttpClientHandler
+{
+    ClientCertificateOptions = ClientCertificateOption.Manual,
+    ServerCertificateCustomValidationCallback = (_, _, _, _) => true,
+    Proxy = new WebProxy("socks5://127.0.0.1:1338"),
+});
+
+var response = await http.SendAsync(new HttpRequestMessage(HttpMethod.Get, "https://kbu3mvegpytu4gewdgvjae7zhrzszmetmr5jdlwk5ct5pfzlbaqbdqqd.onion")
+{
+    Content = new StringContent("Hello World!")
+});
+
+response.EnsureSuccessStatusCode();
+```
+
+You can play around with a trivial echo service by installing the [dotnet-echo](https://nuget.org/packages/dotnet-echo) tool 
+and exposing it over the Tor network.
 
 
 ## Dogfooding
