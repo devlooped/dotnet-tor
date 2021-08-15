@@ -34,6 +34,39 @@ Commands:
 The program will automatically check for updates once a day and recommend updating 
 if there is a new version available.
 
+Configured services are persisted in the global [dotnet-config](https://dotnetconfig.org) file at `%userprofile%\tor\.netconfig`, and on first run (after configuration), their `.onion` address and keys will be available in a sub-directory alongside the `.netconfig`. This allows the tool to self-update while preserving all configurations and services.
+
+### Exposing local HTTP APIs via Tor
+
+After installation, you might want to expose an .NET Core HTTP service from port 7071 (the default for the Kestrel-based HTTP server in .NET Core) over the Tor network. You could configure the service with:
+
+```
+> dotnet tor add api 127.0.0.1:7071 -p 80
+```
+
+Then start the Tor proxy normally with:
+
+```
+> dotnet tor
+```
+
+There will now be a `%userprofile%\tor\.netconfig\api\hostname` file with the .onion address for the service, like `2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion`. You can now reach web API endpoints natively via a .NET 6 client with:
+
+```csharp
+using System;
+using System.Net;
+using System.Net.Http;
+
+var http = new HttpClient(new HttpClientHandler
+{
+    Proxy = new WebProxy("socks5://127.0.0.1:1338")
+});
+
+var response = await http.GetAsync("http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion/[endpoint]"));
+```
+
+The client can just use another `dotnet-tor` proxy running locally with default configuration values and things will Just Work™ and properly reach the destination service running anywhere in the world :).
+
 
 ## Dogfooding
 
