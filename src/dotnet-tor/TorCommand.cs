@@ -45,7 +45,6 @@ class TorCommand : RootCommand
                 ControlPassword = ControlPassword,
                 SocksPort = socks,
                 ControlPort = control,
-                //DataDirectory = Tor.DataDir,
             },
         };
 
