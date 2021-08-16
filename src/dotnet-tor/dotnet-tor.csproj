@@ -5,8 +5,9 @@
     <OutputType>Exe</OutputType>
     <TargetFrameworks>netcoreapp3.1;net5.0</TargetFrameworks>
     <LangVersion>latest</LangVersion>
-    <IsPackable>true</IsPackable>
     <PackAsTool>true</PackAsTool>
+    <PackageId>dotnet-tor</PackageId>
+    <ToolCommandName>dotnet-tor</ToolCommandName>
     <PackageReadmeFile>readme.md</PackageReadmeFile>
     <Description>A Tor proxy service packaged as a dotnet global tool</Description>
     <PackageProjectUrl>https://www.clarius.com/dotnet-tor</PackageProjectUrl>
