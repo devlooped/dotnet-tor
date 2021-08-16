@@ -1,45 +1,55 @@
 
 
-## [v0.3.3](https://github.com/kzu/dotnet-tor/tree/v0.3.3) (2021-05-19)
+## [v0.4.0](https://github.com/devlooped/dotnet-tor/tree/v0.4.0) (2021-08-15)
 
-[Full Changelog](https://github.com/kzu/dotnet-tor/compare/v0.3.2...v0.3.3)
-
-:bug: Fixed bugs:
-
-- If only .NET5 SDK is installed, tool fails to run [\#5](https://github.com/kzu/dotnet-tor/issues/5)
-
-## [v0.3.2](https://github.com/kzu/dotnet-tor/tree/v0.3.2) (2021-05-19)
-
-[Full Changelog](https://github.com/kzu/dotnet-tor/compare/v0.3.1...v0.3.2)
-
-:bug: Fixed bugs:
-
-- When rendering the service onion URL, also add the port [\#4](https://github.com/kzu/dotnet-tor/issues/4)
-
-## [v0.3.1](https://github.com/kzu/dotnet-tor/tree/v0.3.1) (2021-05-19)
-
-[Full Changelog](https://github.com/kzu/dotnet-tor/compare/v0.3.0...v0.3.1)
-
-:bug: Fixed bugs:
-
-- Failure to locate torrc under Ubuntu [\#3](https://github.com/kzu/dotnet-tor/issues/3)
-
-## [v0.3.0](https://github.com/kzu/dotnet-tor/tree/v0.3.0) (2021-05-19)
-
-[Full Changelog](https://github.com/kzu/dotnet-tor/compare/v0.2.0...v0.3.0)
+[Full Changelog](https://github.com/devlooped/dotnet-tor/compare/v0.3.3...v0.4.0)
 
 :sparkles: Implemented enhancements:
 
-- Add support for manually configuring the torrc file [\#2](https://github.com/kzu/dotnet-tor/issues/2)
-- Add support for registering hidden services [\#1](https://github.com/kzu/dotnet-tor/issues/1)
+- 📝 Document configured service paths [\#14](https://github.com/devlooped/dotnet-tor/issues/14)
+- Add readme.md to package for improved discoverability on nuget.org [\#13](https://github.com/devlooped/dotnet-tor/issues/13)
+- Switch to using public release of TorSharp [\#12](https://github.com/devlooped/dotnet-tor/issues/12)
 
-## [v0.2.0](https://github.com/kzu/dotnet-tor/tree/v0.2.0) (2021-05-19)
+## [v0.3.3](https://github.com/devlooped/dotnet-tor/tree/v0.3.3) (2021-05-19)
 
-[Full Changelog](https://github.com/kzu/dotnet-tor/compare/v0.1.0...v0.2.0)
+[Full Changelog](https://github.com/devlooped/dotnet-tor/compare/v0.3.2...v0.3.3)
 
-## [v0.1.0](https://github.com/kzu/dotnet-tor/tree/v0.1.0) (2021-05-19)
+:bug: Fixed bugs:
 
-[Full Changelog](https://github.com/kzu/dotnet-tor/compare/67bd41f468f39d068c83c5b958b64c5afb96cd3a...v0.1.0)
+- If only .NET5 SDK is installed, tool fails to run [\#5](https://github.com/devlooped/dotnet-tor/issues/5)
+
+## [v0.3.2](https://github.com/devlooped/dotnet-tor/tree/v0.3.2) (2021-05-19)
+
+[Full Changelog](https://github.com/devlooped/dotnet-tor/compare/v0.3.1...v0.3.2)
+
+:bug: Fixed bugs:
+
+- When rendering the service onion URL, also add the port [\#4](https://github.com/devlooped/dotnet-tor/issues/4)
+
+## [v0.3.1](https://github.com/devlooped/dotnet-tor/tree/v0.3.1) (2021-05-19)
+
+[Full Changelog](https://github.com/devlooped/dotnet-tor/compare/v0.3.0...v0.3.1)
+
+:bug: Fixed bugs:
+
+- Failure to locate torrc under Ubuntu [\#3](https://github.com/devlooped/dotnet-tor/issues/3)
+
+## [v0.3.0](https://github.com/devlooped/dotnet-tor/tree/v0.3.0) (2021-05-19)
+
+[Full Changelog](https://github.com/devlooped/dotnet-tor/compare/v0.2.0...v0.3.0)
+
+:sparkles: Implemented enhancements:
+
+- Add support for manually configuring the torrc file [\#2](https://github.com/devlooped/dotnet-tor/issues/2)
+- Add support for registering hidden services [\#1](https://github.com/devlooped/dotnet-tor/issues/1)
+
+## [v0.2.0](https://github.com/devlooped/dotnet-tor/tree/v0.2.0) (2021-05-19)
+
+[Full Changelog](https://github.com/devlooped/dotnet-tor/compare/v0.1.0...v0.2.0)
+
+## [v0.1.0](https://github.com/devlooped/dotnet-tor/tree/v0.1.0) (2021-05-19)
+
+[Full Changelog](https://github.com/devlooped/dotnet-tor/compare/67bd41f468f39d068c83c5b958b64c5afb96cd3a...v0.1.0)
 
 
 
