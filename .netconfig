@@ -120,8 +120,8 @@
 	weak
 [file "src/Directory.Build.targets"]
 	url = https://github.com/devlooped/oss/blob/main/src/Directory.Build.targets
-	sha = 55c0b32601e94e1eed35028a0cad510c6bcbb265
-	etag = 874f20853c983e6440ed67bb571d94927f9fb4cd4438585b07df7b420c664609
+	sha = fde1f6f17926f429a52e64de5ec355bb643e25bc
+	etag = 126357bbdcfd2ee087986bd27f1817926f6585fba7eda4c9acb36975474fd1b7
 	weak
 [file "support.md"]
 	url = https://github.com/devlooped/oss/blob/main/support.md
