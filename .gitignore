@@ -2,9 +2,9 @@ bin
 obj
 artifacts
 pack
+TestResults
 .vs
 .vscode
-/tor
 
 *.suo
 *.sdf
@@ -28,4 +28,3 @@ _site
 .jekyll-cache
 Gemfile.lock
 package-lock.json
-launchSettings.json
