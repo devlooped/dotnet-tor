@@ -13,7 +13,7 @@
 
   <ItemGroup>
     <PackageReference Include="DotNetConfig" Version="1.0.6" />
-    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.0.0" PrivateAssets="all" />
+    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.1.1" PrivateAssets="all" />
     <PackageReference Include="System.CommandLine" Version="2.0.0-beta1.21216.1" />
     <PackageReference Include="ThisAssembly" Version="1.0.9" />
     <PackageReference Include="NuGet.Protocol" Version="5.11.0" />
