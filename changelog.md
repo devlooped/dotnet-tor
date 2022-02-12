@@ -1,4 +1,8 @@
+# Changelog
 
+## [v0.4.1](https://github.com/devlooped/dotnet-tor/tree/v0.4.1) (2022-02-12)
+
+[Full Changelog](https://github.com/devlooped/dotnet-tor/compare/v0.4.0...v0.4.1)
 
 ## [v0.4.0](https://github.com/devlooped/dotnet-tor/tree/v0.4.0) (2021-08-16)
 
