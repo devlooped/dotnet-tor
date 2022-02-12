@@ -8,7 +8,7 @@
     <PackAsTool>true</PackAsTool>
     <PackageReadmeFile>readme.md</PackageReadmeFile>
     <Description>A Tor proxy service packaged as a dotnet global tool</Description>
-    <PackageProjectUrl>https://www.clarius.com/dotnet-tor</PackageProjectUrl>
+    <PackageProjectUrl>https://www.clarius.org/dotnet-tor</PackageProjectUrl>
   </PropertyGroup>
 
   <ItemGroup>
