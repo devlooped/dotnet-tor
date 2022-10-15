@@ -25,7 +25,6 @@
   <ItemGroup>
     <ProjectProperty Include="CI" />
     <ProjectProperty Include="PackageId" />
-    <None Include="..\..\readme.md" Pack="true" PackagePath="readme.md" />
   </ItemGroup>
 
 </Project>
