@@ -1,9 +1,9 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <AssemblyName>dotnet-tor</AssemblyName>
     <OutputType>Exe</OutputType>
-    <TargetFrameworks>netcoreapp3.1;net5.0</TargetFrameworks>
+    <TargetFrameworks>netcoreapp3.1;net6.0</TargetFrameworks>
     <LangVersion>latest</LangVersion>
     <PackAsTool>true</PackAsTool>
     <Description>A Tor proxy service packaged as a dotnet global tool</Description>
