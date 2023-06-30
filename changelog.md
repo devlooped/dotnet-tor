@@ -1,5 +1,13 @@
 # Changelog
 
+## [v0.4.2](https://github.com/devlooped/dotnet-tor/tree/v0.4.2) (2023-06-30)
+
+[Full Changelog](https://github.com/devlooped/dotnet-tor/compare/v0.4.1...v0.4.2)
+
+:twisted_rightwards_arrows: Merged:
+
+- +M▼ includes [\#34](https://github.com/devlooped/dotnet-tor/pull/34) (@github-actions[bot])
+
 ## [v0.4.1](https://github.com/devlooped/dotnet-tor/tree/v0.4.1) (2022-02-12)
 
 [Full Changelog](https://github.com/devlooped/dotnet-tor/compare/v0.4.0...v0.4.1)
