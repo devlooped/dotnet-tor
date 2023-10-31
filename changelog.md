@@ -1,5 +1,9 @@
 # Changelog
 
+## [v0.5.0](https://github.com/devlooped/dotnet-tor/tree/v0.5.0) (2023-10-31)
+
+[Full Changelog](https://github.com/devlooped/dotnet-tor/compare/v0.4.2...v0.5.0)
+
 ## [v0.4.2](https://github.com/devlooped/dotnet-tor/tree/v0.4.2) (2023-06-30)
 
 [Full Changelog](https://github.com/devlooped/dotnet-tor/compare/v0.4.1...v0.4.2)
