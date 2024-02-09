@@ -115,8 +115,8 @@
 	weak
 [file "docs/sponsors.md"]
 	url = https://github.com/devlooped/sponsors/blob/main/sponsors.md
-	sha = b289319a64c804178c0f6aaa1bd91a02d52b6e79
-	etag = b298623b80486cd10fa850f5daa79a3ad480435d2624837261b12e397eae16a7
+	sha = 6b717aaf3345d5acfc5b388f4b8d054efa2f82fe
+	etag = ac225bb6d8ad1de5a78bf33ced144ac79d3b5dff2118021f0cc753feaba5c7d9
 	weak
 [file ".github/workflows/combine-prs.yml"]
 	url = https://github.com/devlooped/oss/blob/main/.github/workflows/combine-prs.yml
