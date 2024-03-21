@@ -50,8 +50,8 @@
 	weak
 [file ".github/workflows/build.yml"]
 	url = https://github.com/devlooped/oss/blob/main/.github/workflows/build.yml
-	sha = 6e7a3ab866a523d036e95066ab63351b63cc8a24
-	etag = 11c16867077f1d67b23a75e83556d3cd761aa6a69fd6c6bbed7d0f6b202c33da
+	sha = 97ebd189e44da857e53e4d98af2727dd9dcb0740
+	etag = f02775f5cdf8ba06238500e56bc25ca1e0aa329db4931f230c45bd1d7de1696d
 	weak
 [file ".github/workflows/changelog.yml"]
 	url = https://github.com/devlooped/oss/blob/main/.github/workflows/changelog.yml
@@ -65,13 +65,13 @@
 	weak
 [file ".github/workflows/publish.yml"]
 	url = https://github.com/devlooped/oss/blob/main/.github/workflows/publish.yml
-	sha = 6e7a3ab866a523d036e95066ab63351b63cc8a24
-	etag = d2ca0380f60f4396fcf250abe334da9a3edeac6612f9d77e5dd8a93d30e46b6c
+	sha = 97ebd189e44da857e53e4d98af2727dd9dcb0740
+	etag = 04a0796e61476765c0a233806e85fb3f461d7cf099a14c91e6c5abcab938062f
 	weak
 [file ".gitignore"]
 	url = https://github.com/devlooped/oss/blob/main/.gitignore
-	sha = ef852e7d2ec9a845dac272dfc479909c0bc6d9f3
-	etag = a556d6108892aa8e7e63476f4fad3a898b3ec1deda94332dd4e89d2fb6b555ca
+	sha = 02811fa23b0a102b9b33048335d41e515bf75737
+	etag = a9c37ae312afac14b78436a7d018af4483d88736b5f780576f2c5a0b3f14998c
 	weak
 [file "Directory.Build.rsp"]
 	url = https://github.com/devlooped/oss/blob/main/Directory.Build.rsp
@@ -115,8 +115,8 @@
 	weak
 [file "docs/sponsors.md"]
 	url = https://github.com/devlooped/sponsors/blob/main/sponsors.md
-	sha = 6b717aaf3345d5acfc5b388f4b8d054efa2f82fe
-	etag = ac225bb6d8ad1de5a78bf33ced144ac79d3b5dff2118021f0cc753feaba5c7d9
+	sha = 3940890e50b50d453568cf698bae398aa0856901
+	etag = 298700101fdb4abda37783fe23f7bc6bde3990715907af62f71d831bc03847e6
 	weak
 [file ".github/workflows/combine-prs.yml"]
 	url = https://github.com/devlooped/oss/blob/main/.github/workflows/combine-prs.yml
@@ -133,30 +133,10 @@
 	sha = 055a8b7c94b74ae139cce919d60b83976d2a9942
 	etag = ddb17acb5872e9e69a76f9dec0ca590f25382caa2ccf750df058dcabb674db2b
 	weak
-[file ".github/CODE_OF_CONDUCT.md"]
-	url = https://github.com/devlooped/.github/blob/main/.github/CODE_OF_CONDUCT.md
-	sha = c97cdeb04769df3f397d9e70b345d4549628c388
-	etag = 4857c01bb695f09bf6912d778951c3065d9dd565e5de3d0827f40432d0e4c613
-	weak
-[file ".github/CONTRIBUTING.md"]
-	url = https://github.com/devlooped/.github/blob/main/.github/CONTRIBUTING.md
-	sha = 1dc5908c7711c17c1fe06abd191f2c09f37ac56a
-	etag = b2bc4ee0e910ea60c3daa4e7d391e6260b5644d3e3c2a19145525c8db3f454fd
-	weak
-[file ".github/SECURITY.md"]
-	url = https://github.com/devlooped/.github/blob/main/.github/SECURITY.md
-	sha = c97cdeb04769df3f397d9e70b345d4549628c388
-	etag = fc8101fd914820db3e6b42d608dc46aefbc60c830ac721ed3917daead3727dbd
-	weak
-[file ".github/SUPPORT.md"]
-	url = https://github.com/devlooped/.github/blob/main/.github/SUPPORT.md
-	sha = c97cdeb04769df3f397d9e70b345d4549628c388
-	etag = 2d47e2fc4fdfa3515203d452674566e3df507461f9938f451a06d79deb687d24
-	weak
 [file "profile/readme.md"]
 	url = https://github.com/devlooped/.github/blob/main/profile/readme.md
-	sha = 7676dd2cb4bc284b699dfd7e0888c4c8fe28de9a
-	etag = d055b4cb45f2c3a5c553869d317cdb90de91c4bccb2b967ce4a59e50ba2e8335
+	sha = e17634bd7287e0b9c2a2bd343b6778a038db0e52
+	etag = 1edd7662826351480fce04bf86ab2e19da338524a96099a3bd6791b408bcf4d0
 	weak
 [file ".github/workflows/sponsor.yml"]
 	url = https://github.com/devlooped/oss/blob/main/.github/workflows/sponsor.yml
@@ -165,6 +145,31 @@
 	weak
 [file ".github/ISSUE_TEMPLATE/bug.md"]
 	url = https://github.com/devlooped/.github/blob/main/.github/ISSUE_TEMPLATE/bug.md
-	sha = 50faf1212e849f3ebd675be93a6c2d9917faa6d0
-	etag = 6d3c88228649aa36431b5a8017baa46cd5d1584542fbc87e0d907b17dd882899
+	sha = 80e81d21c020841dfc8678f218d42ddaffad78db
+	etag = 6ab86c474f24c915681abf4dca6c5becf3a211ab09d11e290385890dadd6f97f
+	weak
+[file ".github/code_of_conduct.md"]
+	url = https://github.com/devlooped/.github/blob/main/.github/code_of_conduct.md
+	sha = 80e81d21c020841dfc8678f218d42ddaffad78db
+	etag = 8caf3f861fbcdea97c2535b7c6fe993d5e7982dca955012b4383db513c833062
+	weak
+[file ".github/contributing.md"]
+	url = https://github.com/devlooped/.github/blob/main/.github/contributing.md
+	sha = 80e81d21c020841dfc8678f218d42ddaffad78db
+	etag = b966999d5ed1927c5139d04bbd057546d0f3c2e8226c10a71c4cab78b92c3796
+	weak
+[file ".github/security.md"]
+	url = https://github.com/devlooped/.github/blob/main/.github/security.md
+	sha = 80e81d21c020841dfc8678f218d42ddaffad78db
+	etag = fc8101fd914820db3e6b42d608dc46aefbc60c830ac721ed3917daead3727dbd
+	weak
+[file ".github/support.md"]
+	url = https://github.com/devlooped/.github/blob/main/.github/support.md
+	sha = 80e81d21c020841dfc8678f218d42ddaffad78db
+	etag = 2d47e2fc4fdfa3515203d452674566e3df507461f9938f451a06d79deb687d24
+	weak
+[file "sponsorlink.yml"]
+	url = https://github.com/devlooped/.github/blob/main/sponsorlink.yml
+	sha = 960866489ad09dc917812443b470bb283e4cdc4f
+	etag = 50117745f59b384d2c542a857985f82104f36b866a5ffedb921a0df8a81c8463
 	weak
