@@ -151,11 +151,6 @@
 	sha = c97cdeb04769df3f397d9e70b345d4549628c388
 	etag = fc8101fd914820db3e6b42d608dc46aefbc60c830ac721ed3917daead3727dbd
 	weak
-[file ".github/SUPPORT.md"]
-	url = https://github.com/devlooped/.github/blob/main/.github/SUPPORT.md
-	sha = c97cdeb04769df3f397d9e70b345d4549628c388
-	etag = 2d47e2fc4fdfa3515203d452674566e3df507461f9938f451a06d79deb687d24
-	weak
 [file "profile/readme.md"]
 	url = https://github.com/devlooped/.github/blob/main/profile/readme.md
 	sha = 7676dd2cb4bc284b699dfd7e0888c4c8fe28de9a
