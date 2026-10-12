@@ -28,4 +28,12 @@
     <ProjectProperty Include="PackageId" />
   </ItemGroup>
 
+  <Target Name="PreserveToolPackageSubdirectories" AfterTargets="PackTool" Condition="'$(PackAsTool)' == 'true'">
+    <ItemGroup>
+      <TfmSpecificPackageFile Update="@(TfmSpecificPackageFile)">
+        <PackagePath>%(TfmSpecificPackageFile.PackagePath)%(TfmSpecificPackageFile.RecursiveDir)</PackagePath>
+      </TfmSpecificPackageFile>
+    </ItemGroup>
+  </Target>
+
 </Project>
