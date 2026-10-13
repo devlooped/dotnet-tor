@@ -20,7 +20,7 @@
     <PackageReference Include="Spectre.Console" Version="0.57.2" />
     <PackageReference Include="Humanizer.Core" Version="3.0.10" />
     <PackageReference Include="Knapcode.TorSharp" Version="2.15.0" />
-    <PackageReference Include="NuGetizer" Version="1.2.1" />
+    <PackageReference Include="NuGetizer" Version="1.5.1" />
   </ItemGroup>
 
   <ItemGroup>
